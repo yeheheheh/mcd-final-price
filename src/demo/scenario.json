@@ -1,0 +1,127 @@
+{
+  "query": {
+    "intent": "双层吉士堡套餐",
+    "quantity": 1,
+    "city": "上海",
+    "keyword": "人民广场"
+  },
+  "generatedAt": "2026-10-23T12:00:00+08:00",
+  "entries": [
+    {
+      "mode": "pickup",
+      "store": {
+        "storeCode": "P1",
+        "storeName": "南京东路店",
+        "address": "南京东路 100 号",
+        "distanceMeters": 480
+      },
+      "menu": [
+        {
+          "productCode": "M1",
+          "name": "双层吉士堡套餐",
+          "priceCents": 3250,
+          "available": true,
+          "isCombo": true
+        },
+        {
+          "productCode": "M2",
+          "name": "薯条（中）",
+          "priceCents": 700,
+          "available": true,
+          "isCombo": false
+        },
+        {
+          "productCode": "M3",
+          "name": "可乐（中）",
+          "priceCents": 600,
+          "available": true,
+          "isCombo": false
+        }
+      ],
+      "coupons": [
+        {
+          "couponId": "C1",
+          "name": "满 25 减 5",
+          "thresholdCents": 2500,
+          "discountCents": 500,
+          "mode": "pickup",
+          "storeCode": "P1"
+        }
+      ]
+    },
+    {
+      "mode": "pickup",
+      "store": {
+        "storeCode": "P2",
+        "storeName": "人民广场店",
+        "address": "人民广场 1 号",
+        "distanceMeters": 240
+      },
+      "menu": [
+        {
+          "productCode": "M1",
+          "name": "双层吉士堡套餐",
+          "priceCents": 3100,
+          "available": true,
+          "isCombo": true
+        },
+        {
+          "productCode": "M2",
+          "name": "薯条（中）",
+          "priceCents": 700,
+          "available": true,
+          "isCombo": false
+        },
+        {
+          "productCode": "M3",
+          "name": "可乐（中）",
+          "priceCents": 600,
+          "available": true,
+          "isCombo": false
+        }
+      ],
+      "coupons": []
+    },
+    {
+      "mode": "delivery",
+      "store": {
+        "storeCode": "D1",
+        "storeName": "外送店",
+        "beCode": "D1-BE"
+      },
+      "menu": [
+        {
+          "productCode": "M1",
+          "name": "双层吉士堡套餐",
+          "priceCents": 3350,
+          "available": true,
+          "isCombo": true
+        },
+        {
+          "productCode": "M2",
+          "name": "薯条（中）",
+          "priceCents": 700,
+          "available": true,
+          "isCombo": false
+        },
+        {
+          "productCode": "M3",
+          "name": "可乐（中）",
+          "priceCents": 600,
+          "available": true,
+          "isCombo": false
+        }
+      ],
+      "coupons": [
+        {
+          "couponId": "C2",
+          "name": "满 30 减 4",
+          "thresholdCents": 3000,
+          "discountCents": 400,
+          "mode": "delivery",
+          "storeCode": "D1"
+        }
+      ]
+    }
+  ]
+}

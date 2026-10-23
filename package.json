@@ -1,0 +1,29 @@
+{
+  "name": "mcd-final-price",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "麦麦到手价：外送 vs 到店实时比价 Skill",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "demo": "tsx src/cli.ts demo",
+    "compare": "tsx src/cli.ts compare",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "probe": "tsx src/probe.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0",
+    "vitest": "^5.0.5"
+  }
+}
