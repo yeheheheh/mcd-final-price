@@ -305,6 +305,7 @@ npm run probe      # 探测 MCP 工具 schema（需要 Token）
 - 赛事：2026 麦当劳程序员创意开发大赛
 - 时间：2026-10-09 10:30 至 2026-10-25 23:59
 - 提交：公开 GitHub 仓库 + Issue 报名
+- 报名 Issue：[#1159](https://github.com/M-China/mcd-developer-innovation-challenge/issues/1159)
 - 声明：见 [CONTEST_DECLARATION.md](CONTEST_DECLARATION.md)
 - MCP 接入：见 [MCP_INTEGRATION.md](MCP_INTEGRATION.md)
 - WorkBuddy 使用：见 [workbuddy.md](workbuddy.md)
@@ -323,7 +324,7 @@ Issue 内容：
 项目简介：基于麦当劳中国 MCP 的外送 vs 到店实时比价 Skill，逐方案调用 calculate-price 真算到手价，给出可解释的下单前建议。
 ```
 
-> 提交前把 `<your-name>` 替换成你的 GitHub 用户名，确认仓库公开，并确保 Star > 0 入榜。
+> 仓库已公开，报名 Issue 已提交；Star > 0 入榜。如果这个项目帮你省到钱，欢迎点一个 Star。
 
 ## 如果它帮你省到钱
 
